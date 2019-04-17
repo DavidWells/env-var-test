@@ -1,0 +1,13 @@
+{
+  "name": "my-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir build && cp index.html build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

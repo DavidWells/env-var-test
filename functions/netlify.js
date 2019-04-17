@@ -1,5 +1,5 @@
 
-exports.handler = async (event, context) {
+exports.handler = async function (event, context) {
   return {
     statusCode: 200,
     body: "Hello, World ${process.env.FOOBAR}"

@@ -2,6 +2,8 @@
 exports.handler = async function (event, context) {
   return {
     statusCode: 200,
-    body: "Hello, World ${process.env.FOOBAR}"
+    body: JSON.stringify({
+    	message: `Hello, World ${process.env.FOOBAR}`
+    })
   }
 }

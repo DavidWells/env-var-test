@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir build && cp index.html build"
+    "build": "mkdir build && echo $FOOBAR && cp index.html build"
   },
   "keywords": [],
   "author": "",

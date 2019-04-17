@@ -1,3 +1,5 @@
 [build]
   publish = "build"
+  functions = "functions"
   command = "npm run build"
+  environment = {FOOBAR = "baz"}
